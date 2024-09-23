@@ -1,0 +1,33 @@
+{
+  "name": "openai-bot-bd",
+  "version": "1.0.0",
+  "description": "a telegram bot with openai api",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sr-tamim/openai-bot-bd.git"
+  },
+  "keywords": [
+    "telegram-bot",
+    "openai",
+    "chatgpt"
+  ],
+  "author": "\"SR Tamim\", \"Sharafat Karim\"",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sr-tamim/openai-bot-bd/issues"
+  },
+  "homepage": "https://github.com/sr-tamim/openai-bot-bd#readme",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "netlify-lambda": "^2.0.16",
+    "nodemon": "^2.0.22",
+    "openai": "^3.3.0",
+    "telegraf": "^4.12.2"
+  }
+}
